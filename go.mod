@@ -1,5 +1,7 @@
 module github.com/MalinYamato/gotrue2
 
+replace github.com/supabase/gotrue => github.com/MalinYamato/gotrue2 debug
+
 require (
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
 	github.com/aaronarduino/goqrsvg v0.0.0-20220419053939-17e843f1dd40
