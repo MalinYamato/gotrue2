@@ -8,7 +8,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/supabase/gotrue/internal/conf"
 	"github.com/supabase/gotrue/internal/models"
-	"github.com/MalinYamato/mailme"
+	"github.com/MalinYamato/mm"
 	"gopkg.in/gomail.v2"
 )
 
