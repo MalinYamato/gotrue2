@@ -22,6 +22,8 @@ RUN apk add --no-cache ca-certificates
 COPY --from=build /go/src/github.com/supabase/gotrue/gotrue /usr/local/bin/gotrue
 COPY --from=build /go/src/github.com/supabase/gotrue/migrations /usr/local/etc/gotrue/migrations/
 
+RUN chmod 777 /var/log
+
 ENV GOTRUE_DB_MIGRATIONS_PATH /usr/local/etc/gotrue/migrations
 
 USER supabase
