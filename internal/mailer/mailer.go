@@ -45,7 +45,7 @@ func NewMailer(globalConfig *conf.GlobalConfiguration) Mailer {
 		logrus.Infof("Noop mail client being used for %v", globalConfig.SiteURL)
 		mailClient = &noopMailClient{}
 	} else {
-		mailClient = &mailme.Mailer{
+		mailClient = &mm.Mailer{
 			Host:    globalConfig.SMTP.Host,
 			Port:    globalConfig.SMTP.Port,
 			User:    globalConfig.SMTP.User,
