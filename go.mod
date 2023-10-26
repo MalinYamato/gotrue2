@@ -70,7 +70,7 @@ require (
 	github.com/fatih/structs v1.1.0
 	github.com/gobuffalo/pop/v6 v6.1.1
 	github.com/jackc/pgx/v4 v4.17.2
-	github.com/MalinYamato/mm v0.0.5
+	github.com/MalinYamato/mm v0.0.6
 )
 
 require (
