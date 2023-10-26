@@ -1,6 +1,6 @@
 module github.com/MalinYamato/gotrue2
 
-replace github.com/supabase/gotrue => github.com/MalinYamato/gotrue2 debug
+replace github.com/supabase/gotrue => github.com/MalinYamato/gotrue2 v0.0.1
 
 require (
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
