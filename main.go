@@ -9,8 +9,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/supabase/gotrue/cmd"
-	"github.com/supabase/gotrue/internal/api"
-	"github.com/supabase/gotrue/internal/observability"
+	"github.com/MalinYamato/gotrue2/internal/api"
+	"github.com/MalinYamato/gotrue2/internal/observability"
 )
 
 func init() {
